@@ -37,7 +37,7 @@ public class GoogleSearchTest {
         driver.findElement(By.id("APjFqb")).click();
         driver.get("https://www.google.com/search?q=football&oq=football&aqs=chrome.0.69i59j0i67i131i433i650l2j0i67i650j0i67i131i433i650l2j0i67i650j46i67i650j0i67i131i433i650l2.5112j0j15&sourceid=chrome&ie=UTF-8");
         WebElement currentElement = driver.switchTo().activeElement();
-        driver.findElement(By.xpath("//div[@id='rso']/div[2]/div/div/div/div/div/div/a/h3"));currentElement.click();
+        driver.findElement(By.xpath("//div[@id='rso']/div[4]/div/div/div/div/div/div/a/h3"));currentElement.click();
         driver.get("https://en.wikipedia.org/wiki/Football");
 
 //        driver.get("https://www.priceline.com/");
